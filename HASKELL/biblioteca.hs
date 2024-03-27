@@ -1,11 +1,9 @@
--- Definição de peça
-newtype Peca = Peca char int
+newtype Livro = Livro char char Int Int
 
+emprestarlivro :: char -> Int
 
-movepeca :: Int -> Int
+devolverlivro :: char -> Int
 
-capturapeca :: Int -> Int
+verificardisponibilidade :: char -> Int
 
-verificamovimento :: Int -> Int
-
-obterinfopeca
+obterinfolivro :: char -> char
