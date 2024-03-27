@@ -6,11 +6,7 @@ struct empregado{
     int departamento;   
 } Empregado;
 
-struct departamento{
-    char nome[30];
-    int id;
-    char localizacao[30];
-}
+
 
 void atualizarInformacao(){
 
@@ -24,6 +20,11 @@ void obterInfoDepartamento(){
 
 }
 
+struct departamento{
+    char nome[30];
+    int id;
+    char localizacao[30];
+}
 
 void adicionarEmpregado(){
 
